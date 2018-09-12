@@ -7,3 +7,22 @@
   .size-toolbar{
       font-size: 25px;
   }
+
+  .fixed-toolbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+
+  .button-toolbar{
+
+    margin-left: 5px;
+    margin-right: 5px;
+  }
