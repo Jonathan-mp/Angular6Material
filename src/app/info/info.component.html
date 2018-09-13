@@ -1,9 +1,21 @@
-<mat-grid-list cols="5" rowHeight="100px">
-    <mat-grid-tile [colspan]="1" [rowspan]="1"></mat-grid-tile>
-    <mat-grid-tile [colspan]="3" [rowspan]="1">
-
-      <h1>INFO</h1>
-      
+<mat-grid-list cols="1" rowHeight="600px">  
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <div>
+        <h1>Project's Information</h1>
+        <mat-card class="card">
+            <mat-card-header>
+              <div mat-card-avatar style="background-image: url('../../assets/user.jpg')" class="example-header-image"></div>
+              <mat-card-title>Jonathan Muñoz</mat-card-title>
+              <mat-card-subtitle>Information Technology Engineer</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="../../assets/angular6.png" alt="Angular 6 Logo">
+          <mat-card-content>
+           <p>This page was created using Angular CLI <br>just to try to understand and practice more about <b>ANGULAR 6 FRAMEWORK</b>
+            as well as each modules implemented on this website. <br>
+            To see this source code visit my repository on GitHub: https://github.com/Jonathan-mp/Angular6Material
+           </p>
+          </mat-card-content>
+          </mat-card> 
+      </div>
     </mat-grid-tile>
-    <mat-grid-tile [colspan]="1" [rowspan]="1"></mat-grid-tile>
 </mat-grid-list>

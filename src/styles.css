@@ -3,9 +3,13 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 
-body.main{
+body{
     margin: 0;
     padding: 0;
     background: #242424;
     color: white;
+  
 }
+
+
+

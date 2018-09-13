@@ -1,6 +1,4 @@
-<mat-toolbar class="fixed-toolbar">
-  
-     
+<mat-toolbar>  
     <button mat-button [routerLink]="['/home']"  class="size-toolbar">
           <img src="../../assets/mylogo.png" height="65px" width="65px" alt="logo.png">
           <span>[asdfqwei]!</span>
@@ -9,7 +7,7 @@
       <button mat-button [routerLink]="['/home']" class="size-toolbar">Home</button>
       <button mat-button [routerLink]="['/contact']" class="size-toolbar">Contact</button>
       <button mat-button [routerLink]="['/about']" class="size-toolbar">About</button>
-      <button mat-button [routerLink]="['/invalid-url']" class="size-toolbar">_InvalidURL</button>
+      <button mat-button matTooltip="This URL not exists!" [routerLink]="['/invalid-url']" class="size-toolbar">_InvalidURL</button>
 
   <!-- This fills the remaining space of the current row -->
     <span class="example-fill-remaining-space"></span>

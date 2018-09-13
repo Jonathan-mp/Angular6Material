@@ -5,6 +5,7 @@ import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
 
 //icons
 import {MatIconModule} from '@angular/material/icon';
@@ -17,8 +18,9 @@ import {MatIconModule} from '@angular/material/icon';
     MatCheckboxModule,
     MatToolbarModule,
     MatIconModule,
-  MatTooltipModule,
-MatGridListModule
+    MatTooltipModule,
+    MatGridListModule,
+    MatCardModule
 ],
  
     exports: [
@@ -27,8 +29,9 @@ MatGridListModule
     MatCheckboxModule,
     MatToolbarModule,
     MatIconModule,
-  MatTooltipModule,
-MatGridListModule
+    MatTooltipModule,
+    MatGridListModule,
+    MatCardModule
 ],
 })
 export class MaterialComponentModule { }

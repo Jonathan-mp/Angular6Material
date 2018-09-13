@@ -8,13 +8,16 @@
       font-size: 25px;
   }
 
-  .fixed-toolbar {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+
 
   a{
     color: black;
   }
+
+mat-toolbar
+{
+    background: #5ACA9F;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
