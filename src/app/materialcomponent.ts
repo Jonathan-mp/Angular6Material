@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 //icons
 import {MatIconModule} from '@angular/material/icon';
@@ -14,13 +16,19 @@ import {MatIconModule} from '@angular/material/icon';
     MatButtonModule,
     MatCheckboxModule,
     MatToolbarModule,
-    MatIconModule],
+    MatIconModule,
+  MatTooltipModule,
+MatGridListModule
+],
  
     exports: [
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
     MatToolbarModule,
-    MatIconModule],
+    MatIconModule,
+  MatTooltipModule,
+MatGridListModule
+],
 })
 export class MaterialComponentModule { }
