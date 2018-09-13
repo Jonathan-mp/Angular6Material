@@ -1,19 +1,22 @@
 <mat-toolbar class="fixed-toolbar">
   
      
-      <button mat-button class="size-toolbar">
+      <button mat-button [routerLink]="['/home']"  class="size-toolbar">
           <img src="../../assets/mylogo.png" height="65px" width="65px" alt="logo.png">
-          <span>[asdfqwei!]</span>
+          <span>[asdfqwei]!</span>
         </button>
-      
-      <button mat-button class="size-toolbar button-toolbar">show me</button>
-      <button mat-button class="size-toolbar button-toolbar">what</button>
-      <button mat-button class="size-toolbar button-toolbar">you</button>
-      <button mat-button class="size-toolbar button-toolbar">want!</button>
-      
-
+      <button mat-button [routerLink]="['/home']" class="size-toolbar button-toolbar">Home</button>
+      <button mat-button [routerLink]="['/contact']" class="size-toolbar button-toolbar">Contact</button>
+      <button mat-button [routerLink]="['/about']" class="size-toolbar button-toolbar">About</button>
   <!-- This fills the remaining space of the current row -->
   <span class="example-fill-remaining-space"></span>
-  
-  <button><mat-icon>info</mat-icon></button>
+
+    <button mat-icon-button [routerLink]="['/info']" >
+        <mat-icon aria-label="Example icon-button with a heart icon">info</mat-icon>
+    </button>
+
+    <button mat-icon-button>
+        <mat-icon aria-label="Example icon-button with a heart icon"><a href="https://github.com/Jonathan-mp/Angular6Material" target="_blank">code</a></mat-icon>
+      </button>
 </mat-toolbar>
+
