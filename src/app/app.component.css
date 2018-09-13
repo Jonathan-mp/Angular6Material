@@ -1,4 +1,13 @@
-.main {
-   margin: 80px;
+.container {
+   color: white;
+   
+   
+   height: 90vh;
   }
+
+  div.content{
+    margin-top: 70px;
+  
+  }
+
 

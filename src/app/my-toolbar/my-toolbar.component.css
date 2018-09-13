@@ -17,7 +17,7 @@
 mat-toolbar
 {
     background: #5ACA9F;
-    overflow: hidden;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
